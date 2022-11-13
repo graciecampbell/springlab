@@ -1,0 +1,137 @@
+body {
+    background-color:#FCFFF5 ;
+}
+
+
+
+.maincontainer {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.cardone {
+background-color: #E2EACA;
+width: 300px;
+height:400px;
+margin: 15px;
+border-radius: 10px;
+}
+
+.image {
+    background-color: black;
+    height: 150px;
+    margin:10px;
+    background-size: cover;
+}
+
+.imageone {
+    background-image: url('https://th.bing.com/th/id/R.2c3f6201916175babe1d8a1896013623?rik=zuDhqVR100YjiA&pid=ImgRaw&r=0');
+}
+
+.cardtwo {
+    background-color: #E0CAEB;
+    width: 300px;
+    height:400px;
+    margin: 15px;
+    border-radius: 10px;
+    }
+    .imagetwo {
+        background-image: url("https://th.bing.com/th/id/R.c48e53fef371cf7ec823ba0460a96df4?rik=ffNqrM5rfOomJQ&pid=ImgRaw&r=0");
+    }
+
+    .cardthree {
+        background-color: #E2EACA;
+        width: 300px;
+        height:400px;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: smaller;
+        }
+        .imagethree {
+            background-image: url('https://th.bing.com/th/id/OIP.kqm6L4dFF-6mPQ4pwG46GgHaE5?pid=ImgDet&rs=1'); }
+
+
+        .cardfour{
+            background-color: #E0CAEB;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagefour {
+            background-image: url('https://th.bing.com/th/id/R.13b101a536824d13884d59302ed5d498?rik=Gcm7woI%2fFARxuA&pid=ImgRaw&r=0');
+        }
+           
+        .cardfive {
+            background-color:#E2EACA ;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagefive {
+            background-image: url('https://th.bing.com/th/id/OIP.r-UKr5TSD0FBM0jniyFdkwHaE8?pid=ImgDet&rs=1');
+        }
+
+        .cardsix{
+            background-color: #E0CAEB;
+            width:300px;
+            height:400px;
+            margin:15px;
+            border-radius: 15px;
+        }
+        .imagesix {
+            background-image: url('https://th.bing.com/th/id/R.3a9845b454d2f893687658f42f601360?rik=X4VFXB034twjjw&pid=ImgRaw&r=0');
+        }
+
+
+    .cardone:hover{
+        background-color:#E0CAEB;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.02);
+        transition: all .5s ease-in;
+            }
+
+     .cardtwo:hover{
+    background-color:#E2EACA;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.02);
+     transition: all .5s ease-in;
+
+           }
+       
+.cardthree:hover{
+    background-color:#E0CAEB;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+}
+
+.cardfour:hover{
+    background-color:#E2EACA;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.02);
+     transition: all .5s ease-in;
+
+           }
+
+.cardfive:hover{
+    background-color:#E0CAEB;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+        }
+
+.cardsix:hover{
+    background-color: #E2EACA;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .5s ease-in;
+}
